@@ -1,0 +1,82 @@
+/* Boiler */
+
+html {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #444444;
+    color: #FFFFFF;
+}
+
+h1 {
+    margin: 0;
+    padding: 1.25em;
+}
+
+.scores {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.playerscore, .computerscore {
+    font-size: 1.875em;
+    margin: 0;
+}
+
+.computer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feedback {
+    display: flex;
+    justify-content: center;
+}
+
+.feed {
+    font-weight: bold;
+}
+
+.choice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.choices {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+button {
+    border: none;
+    border-radius: 0.625em;
+    margin: 1em;
+    padding: 1.25em;
+}
+
+.restart {
+    display: none;
+    justify-content: center;
+}
